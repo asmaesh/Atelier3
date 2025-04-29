@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .controls {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  .product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  #totalPrice {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
+  

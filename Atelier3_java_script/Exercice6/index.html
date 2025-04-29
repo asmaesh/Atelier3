@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Gestion des Produits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Gestion des Produits</h1>
+
+  <div class="controls">
+    <input type="text" id="searchInput" placeholder="Rechercher un produit...">
+    <select id="categoryFilter">
+      <option value="">Toutes les catégories</option>
+    </select>
+    <select id="sortBy">
+      <option value="">Trier par...</option>
+      <option value="price">Prix</option>
+      <option value="stock">Stock</option>
+    </select>
+    <label>
+      <input type="checkbox" id="lowStock"> Stock faible (&lt; 5)
+    </label>
+  </div>
+
+  <div id="productList"></div>
+
+  <div id="totalPrice"></div>
+
+  <canvas id="productChart" width="400" height="200"></canvas>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="products.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
+
+
+  
+
+
